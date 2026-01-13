@@ -7,11 +7,11 @@ def factorial(n):
         result *= i
     return result
 
-def plotFactorials(n):
+def array_factorials(n):
     """Gibt eine Liste mit n Fakultäten aus (von 1 bis n)"""
     if n < 1:
         raise ValueError("n muss mindestens 1 sein")
-    
+
     factorials = []
     result = 1
     for i in range(1, n + 1):
