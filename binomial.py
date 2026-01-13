@@ -19,6 +19,3 @@ def plotFactorials(n):
         factorials.append(result)
     
     return factorials
-
-for i in plotFactorials(6):
-    print(i)
