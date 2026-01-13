@@ -1,3 +1,5 @@
+"""Dieses Modul fuehrt die Mathematik aus"""
+
 def factorial(n):
     """Berechnet n! (Fakultät von n)"""
     if n < 0:
@@ -17,5 +19,4 @@ def array_factorials(n):
     for i in range(1, n + 1):
         result *= i  # Fakultät berechnen
         factorials.append(result)
-    
     return factorials

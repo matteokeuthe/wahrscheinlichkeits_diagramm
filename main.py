@@ -1,3 +1,5 @@
+"""main"""
+
 from binomial import array_factorials
 from plot import plot_factorials
 

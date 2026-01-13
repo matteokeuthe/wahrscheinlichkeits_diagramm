@@ -1,3 +1,5 @@
+"""Dieses Modul plottet die Grafik"""
+
 import matplotlib.pyplot as plt
 
 def plot_factorials(factorials):
