@@ -10,3 +10,12 @@ def plot_factorials(factorials):
     plt.ylabel("n!")
     plt.title("Fakultäten von 1 bis n")
     plt.show()
+
+def plot_wahrscheinlichkeiten(wahrscheinlichkeiten):
+    """Zeichnet ein Balkendiagramm für alle Wahrscheinlichkeiten"""
+    k = list(range(0, len(wahrscheinlichkeiten)))
+    plt.bar(k, wahrscheinlichkeiten)
+    plt.xlabel("k")
+    plt.ylabel("P(X=k)")
+    plt.title("Binomialverteilte Wahrscheinlichkeit")
+    plt.show()
